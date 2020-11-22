@@ -1,0 +1,361 @@
+/* Added from style.css*/
+/*--------------------------------*/
+/*  2. Header Area
+/*--------------------------------*/
+header {
+  /*background-image: url(img/background/bg1-me.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;*/
+}
+.navbar-header a.navbar-brand {
+  display: inline-block;
+  padding: 20px 0;
+  height: 80px;
+}
+.main-menu ul.navbar-nav li {
+  display: inline-block;
+}
+.main-menu ul.navbar-nav li a {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 29px 15px;
+  text-transform: uppercase;
+}
+.main-menu ul.navbar-nav li.active a:hover {
+  background: none;
+  color:#2bcdc1; 
+}
+.main-menu ul.navbar-nav li.active a {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  color: #2bcdc1;
+  position: relative;
+}
+.main-menu ul.navbar-nav li a:hover {
+  color:#2bcdc1;
+}
+.navbar {
+  border: medium none;
+  margin-bottom: 0;
+}
+.navbar-default {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+}
+.main-menu ul.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  background: none;
+  color:#2bcdc1;
+}
+.navbar-default .navbar-toggle {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border: medium none;
+  border-radius: 0;
+  padding: 25px 0px;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  background-color: transparent;
+  color: #fff;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background: none;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #fff;
+  width: 30px;
+  height: 2px;
+}
+/*--------------------------------*/
+/*  2.1.Header Bottom Area
+/*--------------------------------*/
+.header-bottom h1 {
+  color: #fff;
+  font-size: 40px;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+.header-bottom .cd-headline b {
+  color: #fff;
+  font-weight: 400;
+  margin: 0;
+}
+header .container {
+  display: table;
+  height: 100%;
+}
+header .row {
+  display: table-cell;
+  vertical-align: middle;
+}
+.header-overlay {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.45);
+  top: 0;
+  width: 100%;
+  left: 0;
+  height: 100%;
+}
+.custom-btn:hover {
+  color: #fff;
+  border: 1px solid #2bcdc1;
+}
+.custom-btn {
+  background: #fff none repeat scroll 0 0;
+  border-radius: 1px;
+  color: #333;
+  display: inline-block;
+  letter-spacing: 2px;
+  margin-top: 20px;
+  padding: 12px 15px;
+  position: relative;
+  transition: all 0.4s ease 0s;
+  width: 150px;
+  z-index: 1;
+}
+.btn-2 {
+  margin-left: 30px;
+}
+.custom-btn::before {
+  background: #2bcdc1;
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  width:0%;
+  opacity: 0;
+  transition: 0.4s
+}
+.custom-btn::after {
+  background: #2bcdc1;
+  content: "";
+  height: 100%;
+  right: 0;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  width: 0%;
+  opacity: 0;
+  transition: 0.4s
+}
+.custom-btn:hover::before,.custom-btn:hover::after  {
+  opacity: 1;
+  width: 50%;
+}
+.header-area {
+  background: rgba(255, 255, 255, 0.1) none repeat scroll 0 0;
+}
+.header-area{
+  left: 0;
+  margin: 0 auto;
+  max-width: 100%;
+  position: fixed !important;
+  right: 0;
+  top: 0;
+  z-index: 9999;
+}
+.logo {
+  height: 40px;
+  padding: 20px 0;
+}
+.logo a {
+  display: inline-block;
+  margin-top: 8px;
+}
+/*--------------------------------*/
+/* 2.2. Stick menu
+/*--------------------------------*/
+.stick .navbar-header a.navbar-brand {
+  display: inline-block;
+  padding: 10px 0;
+  height: 50px;
+}
+.stick .main-menu ul.nav > li > a {
+  color: #333;
+  font-size: 13px;
+  line-height: 22px;
+  padding: 20px 15px;
+}
+.stick .main-menu ul.nav > li > a:hover {
+  color:#2bcdc1;
+}
+.stick .main-menu ul.navbar-nav li.active a {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  color: #2bcdc1;
+  position: relative;
+}
+.stick .mainmenu ul#nav >li:hover>a,.stick .mainmenu ul#nav li .mega-menu,.stick .mainmenu ul#nav li ul.sub-menu{
+  background-color: #f5f5f5;
+  color: #333;
+  outline: medium none;
+}
+.stick .mainmenu ul#nav li:hover ul.sub-menu li a:hover,.mainmenu ul#nav li .mega-menu span>a:hover,.stick .mainmenu ul#nav li .mega-menu-shop a.mega-menu-title:hover{
+  color:#333;
+}
+.stick .logo {
+  height: 20px;
+}
+.stick .logo a{margin-top:0px}
+.header-area.stick {
+  background: #fff none repeat scroll 0 0;
+  border-bottom: 2px solid #2bcdc1;
+}
+.stick .navbar-default .navbar-toggle .icon-bar {
+  background-color: #2bcdc1;
+  width: 30px;
+  height: 2px;
+}
+.stick .navbar-default .navbar-toggle {
+  padding: 10px 0px;
+}
+/*///////////////////////////*/
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1169px) {
+.about-self p {
+  margin-bottom: 10px;
+}
+.download-cv a {
+  margin: 10px 0;
+}
+.icons-bottom ul li a {
+  height: 36px;
+  line-height: 33px;
+  margin: 0 1px;
+  width: 36px;
+}
+
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+.self-text ul li {
+  margin-bottom: 5px;
+}
+.download-cv a {
+  margin: 10px 0;
+}
+.about-self p {
+  margin-bottom: 10px;
+}  
+.add-content h2 {
+  font-size: 32px;
+}  
+.fun_text span {
+  font-size: 35px;
+}  
+.contact-form {
+  margin-top: 30px;
+}
+  
+  
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+.container {width:300px}
+header h1 {
+  font-size: 35px;
+}
+header .cd-headline b {
+  font-size: 17px;
+}
+.btn-2 {
+  margin-left: 10px;
+}
+.custom-btn {
+  width: 110px;
+}
+.main-menu ul.navbar-nav li {
+  display: block;
+}
+.main-menu ul.navbar-nav li a {
+  padding: 8px 15px;
+}
+.stick .main-menu ul.nav > li > a {
+  color: #333;
+  height: 40px;
+  line-height: 20px;
+}
+.header-area {
+  background: rgba(0, 0, 0, 0.90) none repeat scroll 0 0;
+}
+.about-details,.self-img,.skills-idea ul li,.edu-result  {
+  margin-bottom: 30px;
+}
+.add-content {
+  margin-bottom: 50px;
+}
+.add-content h2 {
+  font-size: 23px;
+}
+.add-btn {
+  font-size: 24px;
+  padding: 10px 10px;
+  width: 170px !important;
+}
+.skills-idea {
+  margin: 30px 0px;
+}
+.awesome-portfolio-menu ul li {
+  margin: 6px 4px;
+  padding: 8px 10px;
+}
+.single-awesome-portfolio {
+  float: none;
+  width: 100%;
+}
+.item-indicator.owl-carousel.owl-theme .owl-controls .owl-nav div.owl-prev {
+  right: 15%;
+}
+.map-area {
+  float: none;
+  width: 100%;
+}
+.contact-info {
+  float: none;
+  padding: 10px;
+  width: 100%;
+}
+.contact-form {
+  margin-top: 30px;
+}
+.fun_text {
+  margin-bottom: 90px;
+}
+    
+    
+    
+ 
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+  
+header .cd-headline b {
+  font-size: 25px;
+}
+.custom-btn {
+  width: 140px;
+}
+.add-content h2 {
+  font-size: 35px;
+  text-align: center;
+}
+.item-indicator.owl-carousel.owl-theme .owl-controls .owl-nav div.owl-prev {
+  right: 10%;
+}
+.fun_text {
+  margin-bottom: 90px;
+}
+  
+  
+  
+ 
+}
+ 
