@@ -6,3 +6,4 @@ This website is intended to be available through [shahrooz1997.github.io](shahro
 [Todo]
 * using the index.js file try to show the thanks message inside your website and do not go to another webpage.
 * Show your circle picutre after the about section
+* In mobile view the your picture and name that you added does not show up properly.
