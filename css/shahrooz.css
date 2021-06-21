@@ -40,11 +40,26 @@
 	background-size: cover;
 }
 
+
 .service-thumb:hover .researching {
 	background-image: url("../images/researching2.png");
 	background-size: cover;
 }
 
+.cloudcomp {
+	-webkit-transition: background-image 0.4s ease;
+	transition: background-image 0.4s ease;
+	margin: 0 auto;
+	background-image: url("../images/cloudcomp.png");
+	width: 70px;
+	height: 70px;
+	background-size: cover;
+}
+
+.service-thumb:hover .cloudcomp {
+	background-image: url("../images/cloudcomp2.png");
+	background-size: cover;
+}
 
 .student {
 	-webkit-transition: background-image 0.4s ease;
